@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+body{
+  background-color: #282525;
+}
+.conteudo1
+{
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container
+{
+  background-color: #fff;
+  width: 955px;
+  height: 644px;
+}
+
+.container .content
+{
+  margin-left: 9.5rem;
+  margin-top: 1.25rem;
+
+}
+
+.detail
+{
+  content: '';
+  position: absolute;
+  background-image: url(/src/img/detail.svg);
+  width: 50px;
+  height: 50px;
+  left: 50px;
+  top: 230px;
+}
+.container h1{
+  font-size: 64px;
+  font-family: poppins;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-left: 55px
+  
+}
+
+.container h1::before
+{
+  content: '';
+  position: absolute;
+  border-radius: 50px;
+  width: 10px;
+  height: 10px;
+  background-color: #1A636C;
+  top: 185px;
+  left:750px;
+
+}
+
+.container h2{
+  margin-top: 9px;
+  font-size: 32px;
+  margin-left: 80px;
+  font-family: roboto;
+  color: #B6B6B6;
+  font-weight: 400;
+}
+
+.form
+{
+  display: grid;
+  margin-top: 35px;
+
+}
+
+.form input{
+  width:300px;
+  height: 33px;
+  border-radius: 4px;
+  border-color: rgba(0,0,0,0.1);
+ 
+}
+
+.form label{
+  font-family:roboto ;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #191919;
+
+}
+
+.btn button
+{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 36px;
+  border: #231E0F;
+  border-radius: 4px;
+  background-color: #D5AF35;
+  color: #282525;
+  font-family: roboto;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.btn button:hover
+{
+  cursor: pointer;
+  background-color: #E9B308;
+  
+}
+
+.cadastro
+{
+  font-family: roboto;
+ color: #191919;
+  width: 300px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+
+.image img
+{
+  top: 150px;
+  left: 890px;
+  position: absolute;
+  object-fit: cover;
+  width: 400px;
+  height: 650px;
+  box-shadow:2px 2px 6px rgba(0,0,0,0.5);
+}
+
+
+
+.subMedia
+{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  width: 300px;
+  margin-top: 40px;
+  
+}
